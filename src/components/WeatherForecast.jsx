@@ -17,7 +17,7 @@ const WeatherForecast = ({weather5days}) => {
     }
     
     return (
-        <div className="flex flex-col w-fit items-center justify-center mx-auto my-10 py-5 gap-y-5 rounded-xl bg-blue-200 bg-opacity-80 shadow-2xl">
+        <div className="flex flex-col w-fit items-center justify-center mx-auto mt-10 py-5 gap-y-5 rounded-xl bg-blue-200 bg-opacity-80 shadow-2xl">
             <h2 className="text-2xl text-gray-800 font-bold">5 nexts days</h2>
 
             <div className="flex gap-x-5 px-5 py-4">
