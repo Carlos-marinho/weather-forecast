@@ -3,7 +3,6 @@ const WeatherForecast = ({weather5days}) => {
 
     for (let weather of weather5days.list) {
         const date = new Date(weather.dt * 1000).toLocaleDateString()
-        console.log(weather)
         if (!forecast[date]) {
             forecast[date] = weather
         }

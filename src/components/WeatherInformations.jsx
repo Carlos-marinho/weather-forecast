@@ -3,7 +3,7 @@ const WeatherInformations = ({weather}) => {
 
     return (
         <div className="flex flex-col min-w-fit w-6/12 items-center justify-center mx-4 sm:mx-auto my-10 py-5 gap-y-5 rounded-xl bg-blue-200 bg-opacity-80 shadow-2xl">
-            <h2 className="html text-3xl text-gray-800 font-bold">{weather.name}</h2>
+            <h2 className="text-3xl text-gray-800 font-bold">{weather.name}</h2>
 
             <div className="flex flex-wrap gap-x-6 justify-center items-center">
                 <img className="w-24" src={IMG_LINK} alt="Weather time" />
@@ -26,3 +26,4 @@ const WeatherInformations = ({weather}) => {
 }
  
 export default WeatherInformations;
+
