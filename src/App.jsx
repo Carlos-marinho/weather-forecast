@@ -24,9 +24,9 @@ function App() {
   }           
 
   return (
-    <div className='w-screen h-screen bg-blue-400 pb-4 fixed'>
+    <div className='w-full h-full bg-blue-400 pb-4'>
       <div className="flex flex-col w-8/12 mx-auto justify-center items-center gap-y-2">
-        <h1 className='text-5xl font-extrabold text-white my-10'>Weather Forecast</h1>
+        <h1 className='text-5xl font-extrabold text-white m-10 '>Weather Forecast</h1>
         <input className='shadow-md my-1 px-2 py-1 rounded-lg outline-none' ref={inputRef} type="text" placeholder='Enter a city name' />
         <button className='text-lg px-4 py-2 bg-blue-950 hover:bg-blue-100 hover:text-blue-950 rounded-xl text-white' onClick={handleSearch}>Search</button>
       </div>
