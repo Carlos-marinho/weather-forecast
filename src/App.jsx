@@ -6,10 +6,11 @@ import WeatherForecast from './components/WeatherForecast'
 function App() {
   const API_KEY = "9b4f3141d26f73b08f6c33588bd73989"
   const [lang, setLang] = useState("en_us")
+
   const inputRef = useRef()
   const [weather,setWeather] = useState()
   const [weather5days,setWeather5days] = useState()
-
+  
   async function handleSearch() {
     try {
       const city = inputRef.current.value
